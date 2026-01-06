@@ -1,0 +1,4 @@
+adb command to get the current app activity name of application
+
+----- app should be open state-----
+adb shell dumpsys window | grep -E mCurrentFocus
